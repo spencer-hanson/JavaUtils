@@ -2,6 +2,7 @@ package spencer.hanson;
 
 import spencer.hanson.modules.LineCounter;
 import spencer.hanson.modules.MassRenamer;
+import spencer.hanson.modules.TextMod;
 import spencer.hanson.modules.UnZipper;
 
 public class Main {
@@ -11,5 +12,6 @@ public class Main {
         new MassRenamer().run();
         new LineCounter().run();
         new UnZipper().run();
+        new TextMod().run();
     }
 }
