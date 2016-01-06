@@ -1,4 +1,6 @@
-package spencer.hanson;
+package spencer.hanson.modules;
+
+import spencer.hanson.UtilModule;
 
 import java.io.File;
 import java.nio.file.Files;

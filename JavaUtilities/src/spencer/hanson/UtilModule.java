@@ -8,21 +8,23 @@ import java.util.Scanner;
 public abstract class UtilModule {
 
     protected void println(String str) {
-        System.out.println(str);
+        print(str + "\n");
     }
 
     protected void print(String str) {
         System.out.print(str);
     }
 
+    protected void println(int i) { println(i + " "); }
+
     protected void err(String str) {
         System.err.println(str);
     }
 
     protected String getStr() {
-        Scanner sc = new Scanner(System.in);
-        String str = sc.nextLine();
-        return str;
+         Scanner sc = new Scanner(System.in);
+         System.out.print(">");
+         return sc.nextLine();
     }
 
     protected int getInt() {
