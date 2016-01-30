@@ -1,9 +1,7 @@
 package spencer.hanson;
 
-import spencer.hanson.modules.LineCounter;
-import spencer.hanson.modules.MassRenamer;
-import spencer.hanson.modules.TextMod;
-import spencer.hanson.modules.UnZipper;
+import spencer.hanson.modules.*;
+import spencer.hanson.modules.grapher.GraphWindow;
 
 public class Main {
 
@@ -13,5 +11,6 @@ public class Main {
         new LineCounter().run();
         new UnZipper().run();
         new TextMod().run();
+        new Grapher().run();
     }
 }
