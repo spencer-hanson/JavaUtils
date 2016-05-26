@@ -7,10 +7,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        new MassRenamer().run();
-        new LineCounter().run();
-        new UnZipper().run();
-        new TextMod().run();
-        new Grapher().run();
+        new MatrixEncrypt().run();
+
+        //new MassRenamer().run();
+        //new LineCounter().run();
+        //new UnZipper().run();
+        //new TextMod().run();
+        //new Grapher().run();
     }
 }
